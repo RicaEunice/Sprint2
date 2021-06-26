@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUAN ENRICO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar  -->
+
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="/" id="navbar__logo">Juan Enrico</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">
+                Home
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">
+                About
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">
+                Music
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">
+                Events
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/shop.html" class="navbar__links">
+                Shop
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">
+                Contact
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!--Cart Items-->
+<section class="bg" id="cart"> 
+
+
+<h1 class="cart__heading"> CART </h1>
+<h2 class="cart__heading2"><a href="shop.html">BACK TO SHOP</a></h2>
+
+<div class="cart-container">
+    <div class= "total-price">
+        <table>
+            <tr>
+                <td>Total Items:</td>
+                <td>3</td>
+                <td>Total Price:</td>
+                <td>P1500</td>
+                <td><a href="checkout.html">Checkout</a></td>
+            </tr>
+        </table>
+    </div>
+    <table>
+        <tr>
+            <th> PRODUCT </th>
+            <th> QUANTITY </th>
+            <th> SUBTOTAL </th>
+        </tr>
+        <tr>
+            <td> 
+                <div class="cart-info">
+                    <img id= "cart-product" src="images/single2.png">
+                    <div>
+                        <p>NETFLIX AND CHILL</p>
+                        <small>Price: P500</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div> 
+                </div>
+            </td>
+            <td> <input type= "number" value="1"> </td>
+            <td> P500</td>
+        </tr>
+        <tr>
+            <td> 
+                <div class="cart-info">
+                    <img id= "cart-product" src="images/single3.jpg">
+                    <div>
+                        <p>ARAW ARAW</p>
+                        <small>Price: P500</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div> 
+                </div>
+            </td>
+            <td> <input type= "number" value="1"> </td>
+            <td> P500</td>
+        </tr>
+        <tr>
+            <td> 
+                <div class="cart-info">
+                    <img id= "cart-product" src="images/single1.png">
+                    <div>
+                        <p>HANDUM</p>
+                        <small>Price: P500</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div> 
+                </div>
+
+            </td>
+            <td> <input type= "number" value="1"> </td>
+            <td> P500</td>
+        </tr>
+    </table>
+</div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

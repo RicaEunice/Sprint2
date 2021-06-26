@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUAN ENRICO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+
+<!-- Navbar  -->
+
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="/" id="navbar__logo">Juan Enrico</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">
+                Home
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">
+                About
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">
+                Music
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">
+                Events
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/shop.html" class="navbar__links">
+                Shop
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">
+                Contact
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<section class="bg" id="cart">
+<h1 class= "checkout__h1">CHECKOUT FORM</h1>
+<h2 class="checkout__h2"><a href="cart.html">BACK TO CART</a></h2>
+<div class="checkout__row">
+    <div class="col-75">
+      <div class="checkout__container">
+        <form action="/action_page.php">
+        
+          <div class="checkout__row">
+            <div class="col-50">
+              <h3>Customer's Information</h3>
+              <label class = "checkout__label" for="fname"><i class="fa fa-user"></i> Full Name</label>
+              <input class="checkout__input" type="text" id="fname" name="firstname" placeholder="Rica Eunicd">
+              <label class = "checkout__label" for="num"><i class="fa fa-phone"></i> Contact No.</label>
+              <input class="checkout__input" type="text" id="num" name="num" placeholder="09123456789">
+              <label class = "checkout__label" for="email"><i class="fa fa-envelope"></i> Email</label>
+              <input class="checkout__input" type="text" id="email" name="email" placeholder="ricaeunice@gmail.com">
+              <label class = "checkout__label" for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+              <input class="checkout__input" type="text" id="adr" name="address" placeholder="City Proper">
+              <label class = "checkout__label" for="city"><i class="fa fa-institution"></i> City</label>
+              <input class="checkout__input" type="text" id="city" name="city" placeholder="Iloilo City">
+              
+  
+              
+            </div>
+  
+            <div class="col-50">
+              <h3>Payment</h3>
+
+              <label class = "checkout__label" for="fname">Accepted Cards</label>
+              <div class="icon-checkout__container">
+                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              </div>
+
+              <label class = "checkout__label" for="cname">Name of Card Owner</label>
+              <input class="checkout__input" type="text" id="cname" name="cardname" placeholder="Rica Eunice">
+              <label class = "checkout__label" for="ccnum">Credit card number</label>
+              <input class="checkout__input" type="text" id="ccnum" name="cardnumber" placeholder="1234-5678">
+              <label class = "checkout__label" for="expmonth">Exp Month</label>
+              <input class="checkout__input" type="text" id="expmonth" name="expmonth" placeholder="December">
+              <div class="checkout__">
+                <div class="col-50">
+                  <label class = "checkout__label" for="expyear">Exp Year</label>
+                  <input class="checkout__input" type="text" id="expyear" name="expyear" placeholder="2021">
+                </div>
+                <div class="col-50">
+                  <label class = "checkout__label" for="cvv">CVV</label>
+                  <input class="checkout__input" type="text" id="cvv" name="cvv" placeholder="188">
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <label class = "checkout__label">
+            <input class="checkout__input" type="checkbox" checked="checked" name="sameadr"> I confirm that all details above are correct.
+          </label>
+          <input class="checkout__input" type="submit" value="Continue to checkout" class="checkout__btn">
+        </form>
+      </div>
+    </div>
+  <div class= "col-25">
+    <div class="checkout__container">
+      <h4>Cart<span class="price" style="color: black"><i class="fa fa-shopping cart"></i><b>4</b></span></h4>
+
+      <div class="cart-info">
+        <img id= "cart-product" src="images/single2.png">
+        <div>
+            <p>HANDUM</p>
+            <small>Price: P500</small>
+            <br>
+            <a href="">Remove</a>
+        </div> 
+    </div>
+    <div class="cart-info">
+      <img id= "cart-product" src="images/single3.jpg">
+      <div>
+          <p>ARAW ARAW</p>
+          <small>Price: P500</small>
+          <br>
+          <a href="">Remove</a>
+      </div> 
+  </div>
+  
+
+
+      <hr>
+      <p>Total <span class="price" style="color: black"><b>P2000</b></span></p>
+    </div>
+  </div>
+  </div>
+  
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
+
+                        
+            
+           
+
